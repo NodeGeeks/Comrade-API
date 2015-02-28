@@ -31,9 +31,9 @@ module.exports.connections = {
 
   localMongoDB: {
       adapter   : 'sails-mongo',
-      host      : 'localhost',
+      host      : 'comradedb.nodegeeksllc.com',
       port      : 27017,
-      user      : 'comrade',
+      user      : 'dbuser',
       password  : 'S0l4rP0w3r!',
       database  : 'comrade'
   }
